@@ -50,6 +50,7 @@ public class Ej1 {
 		System.out.println("Se ha terminado el programa, muchas gracias por usarme");
 		System.out.println("-------------------------------------------------------");
 
+		//Ejercicio de Carlos Rasero
 	}
 
 }
