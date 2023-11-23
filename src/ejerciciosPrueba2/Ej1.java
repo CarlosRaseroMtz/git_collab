@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Ej1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Scanner sc = new Scanner(System.in);
 		String numEntero;
@@ -17,6 +17,7 @@ public class Ej1 {
 		System.out.println("Bienvenido al programa del ejercicio 1");
 		System.out.println("-----------------------------------------------");
 
+		//Esto es un bucle con do
 		do {
 
 			System.out.println("Escriba un número de 4 cifras");
@@ -45,6 +46,8 @@ public class Ej1 {
 			System.out.println("Pulse 1 para volver a repetir el programa o se cerrará");
 
 			op = sc.nextInt();
+			
+			//esto es un bucle
 		} while (op == 1);
 		System.out.println("-------------------------------------------------------");
 		System.out.println("Se ha terminado el programa, muchas gracias por usarme");
